@@ -48,9 +48,9 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jfif
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  Hi, I received the B.S. and M.S. degrees in electrical and electronics engineering from Hacettepe University, in 2007 and 2010, respectively, and the Ph.D. degree in electrical engineering from The University of Texas at Dallas, in 2020. I joined Texas Instruments, in 2020, where I am currently a Member of Technical Staff, developing and implementing novel algorithms for mmWave radars. I was with Aselsan, Ankara, Turkey, from 2007 to 2016, where I had worked on real-time embedded system development for safety-critical avionics applications. I spent the summer of 2019 at Microsoft, developing embedded software for the next-generation HoloLens mixed-reality smart glass.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  My current research interests include <mark>Radar Perception</mark>, <mark>Computer Vision</mark>, <mark>Edge AI</mark>, and <mark>Robotics</mark>.
 
 content:
   - title: Projects # Title for the section
