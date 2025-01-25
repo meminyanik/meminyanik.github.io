@@ -1,39 +1,39 @@
 # Site
 repository: sproogen/resume-theme
-favicon: images/favicon.ico
+favicon: images/profile.jfif
 
 # Content configuration version
-version: 2
+version: 1
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Muhammet Emin Yanik, PhD
+title: Member of Technical Staff, Texas Instruments
+email: m-yanik@ti.com
+website: https://github.com/meminyanik
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+# twitter_username: tbd
+github_username:  meminyanik
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+# instagram_username: jameswgrant
+linkedin_username: muhammet-emin-yanik
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+# youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
 additional_links:
-- title: itsgoingto.be
+- title: ieeexplore
   icon: fas fa-globe
-  url: https://www.itsgoingto.be
+  url: https://ieeexplore.ieee.org/author/37086802791
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -108,9 +108,6 @@ content:
       - Gaming
       - Knitting
       - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
