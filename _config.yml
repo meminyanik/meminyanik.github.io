@@ -3,13 +3,13 @@ repository: sproogen/resume-theme
 favicon: images/profile.jfif
 
 # Content configuration version
-version: 1
+version: 2
 
 # Personal info
 name: Muhammet Emin Yanik, PhD
 title: Member of Technical Staff, Texas Instruments
 email: m-yanik@ti.com
-website: https://github.com/meminyanik
+# website: https://github.com/meminyanik
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -34,6 +34,9 @@ additional_links:
 - title: ieeexplore
   icon: fas fa-globe
   url: https://ieeexplore.ieee.org/author/37086802791
+- title: googlescholar
+  icon: fab fa-google-scholar
+  url: https://scholar.google.com/citations?user=5-FDAmAAAAAJ&hl=en
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
