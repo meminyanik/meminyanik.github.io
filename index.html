@@ -47,7 +47,7 @@
     .chips{margin-top:4px}
     .mono{font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace}
     .hl{color:#0b5bd3;font-weight:700}
-    .subrole{font-weight:800;margin-top:10px}
+    .subrole{font-weight:600;margin-top:8px}
     .when{font-weight:700}
     @media (max-width:900px){.grid-2{grid-template-columns:1fr}}
     footer{opacity:.8;text-align:center;margin:24px 0 0;font-size:13px;color:var(--muted)}
@@ -70,8 +70,8 @@
 
   <main class="wrap">
     <section class="hero" id="top">
-      <h1>Member of Technical Staff at Texas Instruments Radar R&D</h1>
-      <h2>Former SW Eng. Intern at Microsoft | Former Sr. Sys. Eng. at Aselsan</h2>
+      <h1>Member of Technical Staff @ Texas Instruments Radar R&D</h1>
+      <h2>Former SW Eng. Intern @ Microsoft | Former Sr. Sys. Eng. @ Aselsan</h2>
       <h3>Radar | Computer Vision | Edge AI | Robotics | Perception</h3>
       <p>
         Member of Technical Staff & Systems Engineer at Texas Instruments · Former Microsoft HoloLens firmware intern · 15+ years in real‑time embedded software and system architecture · 9 years PhD‑level applied research in mmWave radar perception
@@ -108,10 +108,11 @@
 
       <div class="item">
         <div class="title">
-          <img src="./logo/TI_logo.svg" alt="Texas Instruments Logo" style="height:36px; vertical-align:middle; margin-right:8px;"> Member of Technical Staff &amp; Systems Engineer — Texas Instruments
+          <img src="./logo/TI_logo.svg" alt="Texas Instruments Logo" style="height:36px; vertical-align:middle; margin-right:8px;">
+          <span><strong>Member of Technical Staff &amp; Systems Engineer</strong> | Texas Instruments</span>
         </div>
-        <div class="meta">Jan 2020 – Present </div>
-        <div class="subrole"><strong>Member of Technical Staff | <span class="when">January 2023 — Current</span></strong></div>
+        <div class="subrole">Member of Technical Staff | Texas Instruments</div>
+        <div class="meta">January 2023 – Present </div>
           <ul class="bullets">
             <li><span class="hl">#1 contributor to TI's radar algorithms Git repository</span> that maintains proprietary solutions for various end‑to‑end applications. The processing chains built are featured in <strong>TI’s SDKs</strong> as out‑of‑the‑box demos; <strong>bit‑exact algorithm frameworks in Matlab and C</strong> became foundational to the Radar R&amp;D team; solutions are adopted by numerous customers as a reference design. Many works awarded at TI internal venues (worldwide).</li>
             <li>Currently <span class="hl">developing advanced multi‑target tracking algorithms</span> for next‑generation ADAS applications. Developed a novel <strong>ego‑pose estimation algorithm</strong> with odometer, IMU, and radar fusion (Kalman‑based) and a <strong>product‑level ADAS tracker</strong> (novel point‑to‑track association, <strong>EKF/CKF</strong> for non‑linear filtering, and <strong>IMM</strong> techniques), validated on real TI automotive radar data (<strong>AWR2944</strong>). Algorithms became foundational modules in reference designs for TI’s automotive radar SoCs.</li>
@@ -120,7 +121,8 @@
             <li>Built a <span class="hl">comprehensive classifier toolset package</span> (object classification) to streamline radar data acquisition/annotation, model training, and deployment on TI mmWave devices.</li>
             <li><strong>Mentored &gt;20</strong> new hires/interns/colleagues; <strong>collaborated with MathWorks</strong> to add support for TI mmWave radar sensors in Matlab; handled &gt;100 customer calls (online/on‑site) solving challenging algorithm and implementation issues. University collaborations with Stanford, MSU, and UT Dallas; <strong>cross‑BU work</strong> with Processors, EdgeAI Studio, and H/W &amp; S/W designers.</li>
           </ul>
-        <div class="subrole"><strong>Systems Engineer | <span class="when">January 2020 — January 2023</span></strong></div>
+        <div class="subrole">Systems Engineer | Texas Instruments</div>
+        <div class="meta">January 2020 — January 2023 </div>
           <ul class="bullets">
             <li>Owned <span class="hl">real‑time implementation (C)</span> of radar signal processing and ML algorithms on <strong>ARM Cortex R4F/M4F</strong>, <strong>C674x/C66x DSPs</strong>, and <strong>HWA IPs</strong> under tight memory/compute constraints, with production‑quality documentation.</li>
             <li>Algorithm owner of TI’s <span class="hl">first low‑power radar SoC</span> <span class="mono">xWRL6432</span> (from kick‑off to launch). Pioneered an <strong>edge‑AI project</strong> (deep‑learning‑based multi‑target classification) — <strong>97% accuracy</strong> with <strong>40 ms</strong> processing time for five simultaneous tracks on <strong>M4F@160MHz</strong> (≤100 mW). Built end‑to‑end framework: data capture/labeling tools, automated DL workflows, and real‑time GUI; <strong>released in SDK</strong> and baseline for subsequent edge‑AI offerings (e.g., gesture recognition).</li>
@@ -131,20 +133,22 @@
 
       <div class="item">
         <div class="title">
-          <img src="./logo/Microsoft_logo.svg" alt="Microsoft Logo" style="height:36px; vertical-align:middle; margin-right:8px;"> Software Engineering Intern — Microsoft
+          <img src="./logo/Microsoft_logo.svg" alt="Microsoft Logo" style="height:36px; vertical-align:middle; margin-right:8px;">
+          <span><strong>Software Engineering Intern</strong> | Microsoft</span>
         </div>
-        <div class="meta">May 2019 – Aug 2019</div>
-          <ul class="bullets">
-            <li>Designed and implemented a messaging protocol and a comprehensive debug toolset for the next‑generation HoloLens display firmware in a distributed team (code reviews, branching strategies, Git).</li>
-            <li>Extended a highly complex C DLL library to integrate a new data pipe between host PCs and the HoloLens display control module, requiring deep understanding of API internals; the new interface significantly streamlined real‑time debugging workflows.</li>
-            <li>Implemented a message‑handler task in C++ on XOS RTOS (multi‑core Xtensa LX7) and integrated it into a latency‑sensitive, real‑time display firmware architecture with well‑optimized inter‑task synchronization (advanced XOS APIs).</li>
-            <li>Engineered a modular/scalable Python GUI application for firmware debugging/visualization (control, data visualization, parameter configuration) using the new data‑pipe API (C DLL).</li>
-          </ul>
+        <div class="meta">May 2019 — August 2019</div>
+        <ul class="bullets">
+          <li>Designed and implemented a <span class="hl">messaging protocol and a comprehensive debug toolset</span> for the <span class="hl">next‑generation HoloLens display firmware</span>. Experienced working in a distributed software team, including code review, branching strategies, and Git.</li>
+          <li>Extended a <span class="hl">complex C DLL library</span> to integrate a <span class="hl">new data pipe</span> between host PCs and the HoloLens display control module (with deep understanding of the existing API internals), to significantly streamline the real‑time debugging workflows.</li>
+          <li>Implemented a <span class="hl">message handler task in C++</span> and integrated the new task into the complex real‑time display firmware architecture with <span class="hl">well‑optimized inter‑task synchronization</span> (leveraging <span class="hl">advanced XOS RTOS APIs</span> on <span class="hl">multi‑core Xtensa LX7</span>).</li>
+          <li>Designed a <span class="hl">modular/scalable GUI‑based Python application</span>, including various features (control, data visualization, parameter configuration, etc.), to debug the firmware using the created <span class="hl">data pipe API</span> (called as a C dll library).</li>
+        </ul>
       </div>
 
       <div class="item">
         <div class="title">
-          <img src="./logo/TI_logo.svg" alt="Texas Instruments Logo" style="height:36px; vertical-align:middle; margin-right:8px;"> Systems Engineering Intern — Texas Instruments
+          <img src="./logo/TI_logo.svg" alt="Texas Instruments Logo" style="height:36px; vertical-align:middle; margin-right:8px;">
+          <span><strong>Systems Engineering Intern</strong> | Texas Instruments</span>
         </div>
         <div class="meta">Feb 2019 – May 2019</div>
         <ul class="bullets">
@@ -156,7 +160,8 @@
 
       <div class="item">
         <div class="title">
-          <img src="./logo/UTD_logo.svg" alt="UT Dallas Logo" style="height:36px; vertical-align:middle; margin-right:8px;"> Research &amp; Teaching Assistant — The University of Texas at Dallas (TxACE Lab)
+          <img src="./logo/UTD_logo.svg" alt="UT Dallas Logo" style="height:36px; vertical-align:middle; margin-right:8px;">
+          <span><strong>Research &amp; Teaching Assistant</strong> | The University of Texas at Dallas (TxACE Lab)</span>
         </div>
         <div class="title"></div>
         <div class="meta">Aug 2016 – Feb 2019 · Aug 2019 – Dec 2019</div>
@@ -171,7 +176,8 @@
 
       <div class="item">
         <div class="title">
-          <img src="./logo/Sidus_logo.png" alt="Sidus Logo" style="height:36px; vertical-align:middle; margin-right:8px;"> Co‑Founder &amp Technical Team Leader — Sidus Innovations (Start‑Up)
+          <img src="./logo/Sidus_logo.png" alt="Sidus Logo" style="height:36px; vertical-align:middle; margin-right:8px;">
+          <span><strong>Co‑Founder &amp Technical Team Leader</strong> | Sidus Innovations (Start‑Up)</span>
         </div>
         <div class="meta">Mar 2016 – Feb 2019</div>
         <ul class="bullets">
@@ -185,7 +191,8 @@
 
       <div class="item">
         <div class="title">
-          <img src="./logo/Aselsan_logo.png" alt="Aselsan Logo" style="height:36px; vertical-align:middle; margin-right:8px;"> Senior Embedded Systems Engineer — Aselsan (Defense News Top 50)
+          <img src="./logo/Aselsan_logo.png" alt="Aselsan Logo" style="height:36px; vertical-align:middle; margin-right:8px;">
+          <span><strong>Senior Embedded Systems Engineer</strong> | Aselsan (Defense News Top 50)</span>
         </div>
         <div class="meta">Jun 2007 – Jul 2016</div>
         <ul class="bullets">
